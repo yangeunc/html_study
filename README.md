@@ -6,5 +6,7 @@
 <p>block과 inline태그는 의미에 맞게 외부/내부 구조로 구성해서 사용해야 한다. (의미 중첩되지 않도록)</p>
 <hr>
 <h2>23.02.14 시작 - 문서태그</h2>
-<p>strong, em, hr, blockquote, q, code, address, sub, sup, del,</p>
+<p><strong>strong</strong>, <em>em</em>, hr, blockquote, q, code, address, sub, sup, del,</p>
 <p>gnb, lnb, snb, fnb, breadcrumbs</p>
+<blockquote cite="https://ynweb.notion.site/UI-UX-A-23-1-27-6-2-cada53e4cda44b9ab4f417fc8eb9ecab">
+  유나쌤 블로그 참고 - https://ynweb.notion.site/UI-UX-A-23-1-27-6-2-cada53e4cda44b9ab4f417fc8eb9ecab</blockquote>
