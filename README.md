@@ -9,3 +9,9 @@
 <p><strong>strong</strong>, <em>em</em>, hr, blockquote, q, code, address, sub, sup, del,</p>
 <p>gnb, lnb, snb, fnb, breadcrumbs</p>
 <blockquote cite="https://ynweb.notion.site/UI-UX-A-23-1-27-6-2-cada53e4cda44b9ab4f417fc8eb9ecab">유나쌤 블로그 참고 - https://ynweb.notion.site/UI-UX-A-23-1-27-6-2-cada53e4cda44b9ab4f417fc8eb9ecab</blockquote>
+<h2>23.02.15 - ul,ol</h2>
+<ul>
+  <li>ul, ol, li 순서있는 목록 없는 목록 구분 확실히 해야함</li>
+  <li>li의 형제태그는 li만 올 수 있으니 나머지 태그는 그 자식, 자손태그에 삽입해야한다</li>
+  <li>p태그를 사용할 때 ul과li의 사이가 아닌 li안에 넣어서 사용해야 한다</li>
+</ul>
