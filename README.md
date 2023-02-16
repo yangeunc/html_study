@@ -22,3 +22,15 @@
   <dd>dl 안에는 dt와 dd만 올 수 있다</dd>
   <dd>다른 태그들을 쓰려면 dt와 dd안에 써야한다</dd>
 </dl>
+<div class="study">
+  <h2>23.02.16 - HTML - 시맨틱태그, 그룹태그 </h2>
+  <ul>
+    <dt>div, section, aside, article, main</dt>
+    <dd>div는 2개 이상 묶어주는 그룹태그이다</dd>
+    <dd>section은 문서의 독립적인 구획을 나타낸다</dd>
+    <dd>aside는 사이드에 배치되어있다</dd>
+    <dd>article은 독립적으로 다른곳에 배치해놔도 어떤것인지 알 수 있다</dd>
+    <dd>main은 화면 전체를 </dd>
+  </ul>
+  </div>
+  
