@@ -25,7 +25,7 @@
 <div class="study">
   <h2>23.02.16 - HTML - 시맨틱태그, 그룹태그 </h2>
   <ul>
-    <dt>div, section, aside, article, main</dt>
+    <dt><strong>div, section, aside, article, main</strong></dt>
     <dd>div는 2개 이상 묶어주는 그룹태그이다</dd>
     <dd>section은 문서의 독립적인 구획을 나타낸다</dd>
     <dd>aside는 사이드에 배치되어있다</dd>
