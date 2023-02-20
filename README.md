@@ -71,7 +71,7 @@
   </thead>
   <tbody>
     <tr>
-      <th rowspan="3">block</th>
+      <td rowspan="3">block</td>
       <td>&lt;tr&gt;</td>
       <td>가로행 태그</td>
     </tr>
