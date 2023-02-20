@@ -60,3 +60,28 @@
 <h2>23.02.19</h2>
 <p>링크태그 사용할 때 위치나 태그 위치 잘 보고 쓰기</p>
 <p>항상 태그 다 적고나면 검사하기</p>
+<h2>23.02.20</h2>
+<table>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>태그명</th>
+      <th>의미</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3">block</th>
+      <td>&lt;tr&gt;</td>
+      <td>가로행 태그</td>
+    </tr>
+    <tr>
+      <td>&lt;td&gt;</td>
+      <td>내용(열) 태그</td>
+    </tr>
+    <tr>
+      <td>&lt;th&gt;</td>
+      <td>제목(열) 태그</td>
+    </tr>
+  </tbody>
+</table>
