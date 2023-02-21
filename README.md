@@ -96,7 +96,7 @@
 </fieldset>
   <fieldset>
    <legned>type 퀴즈</legend>
-   <span>2. 다음 중 관심사 2개를 선택하려면 어떤 type이 쓰여야 하는지 고르세요</span>
+   <span>2. 다음 중 관심사 2개를 선택하려면 어떤 type이 쓰여야 하는지 고르세요</span><br>
    <label><input type="radio" name"quiz" value="id">1. checkbox</label><br>
    <label><input type="radio" name="quiz" value="class">2. radio</label><br>
    <label><input type="radio" name="quiz" value="name">3. choose</label><br>
