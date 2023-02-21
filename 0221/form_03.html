@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>가입양식</legend>
+            <p>모든 이용약관에 동의합니다.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">구분</th>
+                        <th scope="col">내용</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">아이디</th>
+                        <td><input type="text" name="id" placeholder="영문소문자/숫자 입력">*최대 12글자 제한</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">비밀번호</th>
+                        <td><input type="password" name="pw" placeholder="아이디와 다르게 입력"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">주민등록번호</th>
+                        <td><input type="number" name="regi_first" placeholder="주민등록번호 앞 6자리" >
+                        -<input type="number" name="regi_last" placeholder="주민등록번호 뒤 7자리">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">성별</th>
+                        <td><label><input type="radio" name="gender" value="male">남</label>
+                        <label><input type="radio" name="gender" value="female">여</label></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">관심 직종</th>
+                        <td><label>웹기획자<input type="checkbox" name="hobby" value="web"></label>
+                        <label>편집디자이너<input type="checkbox" name="hobby" value="ed"></label>
+                        <label>웹디자이너<input type="checkbox" name="hobby" value="web_d"></label>
+                        <label>웹퍼블리셔<input type="checkbox" name="hobby" value="web_pub"></label>
+                        <label>프론트앤드개발자<input type="checkbox" name="hobby" value="front"></label>
+                        <label>백앤드개발자<input type="checkbox" name="hobby" value="back"></label>
+                    </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">휴대전화</th>
+                        <td>
+                            <select name="telecom">
+                                <option value="none">통신사</option>
+                                <option value="skt">SKT</option>
+                                <option value="kt">KT</option>
+                                <option value="lg">LG</option>
+                            </select>
+                            010-<input type="number" name="phone_number_first">
+                            -<input type="number" name="phone_number_last">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">이메일</th>
+                        <td><input type="email" placeholder="메일 아이디 입력" name="user_mail_id">
+                        @
+                        <select>
+                            <option value="none">메일 주소를 선택하세요</option>
+                            <option value="naver">naver.com</option>
+                            <option value="gmail">gmail.com</option>
+                            <option value="hanmail">hanmail.net</option>
+                            <option value="nate">nate.com</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">인사말</th>
+                        <td><textarea name="saying" rows="5" cols="95"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+            <tfoot>
+                <tr>
+                    <th><button type="submit">회원가입</button></th>
+                </tr>
+            </tfoot>
+        </fieldset>
+    </form>
+</body>
+</html>
