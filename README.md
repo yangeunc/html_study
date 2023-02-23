@@ -102,3 +102,8 @@
    <label><input type="radio" name="quiz" value="name">3. choose</label><br>
   </fieldset>
 </form>
+<h2>23.02.23</h2>
+<p>class는 .으로 표시하고 아이디는 #으로 표시한다(아이디가 있으면 아이디가 기준이다</p>
+<p>body는 생략가능하다</p>
+<p>중복되는 태그는 한번만 쓴다 ex)p,p,p,li,class 등</p>
+<p>공백으로 부모 자식 자손 나타내고 뒤에 값을 줄 때 공백주는거 잊지않기</p>
