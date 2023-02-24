@@ -123,7 +123,7 @@
 <p>border-top:1px solid #aaa;
    border-bottom:1px solid #aaa;<br>
    border:1px solid #aaa;
-   border-left:none; border-right:none;
+   border-left:none; border-right:none;<br>
    선 추가 삭제 편한방법은 두번째꺼
    </p>
    <p>margin은 요소와 요소사이</p>
