@@ -121,7 +121,7 @@
 <p>skip은 사라지게 하는거</p>
 <p>active는 활성화</p>
 <p>border-top:1px solid #aaa;
-   border-bottom:1px solid #aaa;
+   border-bottom:1px solid #aaa;<br>
    border:1px solid #aaa;
    border-left:none; border-right:none;
    선 추가 삭제 편한방법은 두번째꺼
