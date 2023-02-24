@@ -107,3 +107,24 @@
 <p>body는 생략가능하다</p>
 <p>중복되는 태그는 한번만 쓴다 ex)p,p,p,li,class 등</p>
 <p>공백으로 부모 자식 자손 나타내고 뒤에 값을 줄 때 공백주는거 잊지않기</p>
+<h2>23.02.24</h2>
+<p>폰트사이즈는 rem으로 한다</p>
+<ul>
+  <li>글자 조정</li>
+  <li>line-height - 행간 1.5;</li>
+  <li>letter-spacing - 자간 -0.002em; 피그마에서-2%랑 같다</li>
+  <li>word-spacing - 단어와 단어 사이 간격</li>
+  <li>weight - 굵기 style-italic - 기울기</li>
+  <li>line-through - 취소선</li>
+  <li>line-decoration - 밑줄</li>
+</ul>
+<p>skip은 사라지게 하는거</p>
+<p>active는 활성화</p>
+<p>border-top:1px solid #aaa;
+   border-bottom:1px solid #aaa;
+   border:1px solid #aaa;
+   border-left:none; border-right:none;
+   선 추가 삭제 편한방법은 두번째꺼
+   </p>
+   <p>margin은 요소와 요소사이</p>
+   <p>padding은 블록안의 간격</p>
