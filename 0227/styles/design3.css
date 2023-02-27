@@ -1,0 +1,30 @@
+header:after {clear:both; display:block; content:'';}
+header {background-color: aqua;}
+header h1 {
+    background-color: crimson;
+    float:left;
+}
+header form {
+    background-color: cadetblue;
+    float:left;
+}
+header .lnb {
+    background-color: darksalmon;
+    float:right;
+}
+header .lnb a {}
+header h1, header form, header .lnb {
+    width:100px; height:100px;
+}
+main {}
+main .path {}
+main .path dt {}
+main .path dd {}
+main .path dd span {}
+main .path dd span::after {
+    display:inline; content:'\f105';
+}
+main .path .blog span::after, 
+main .path .blog span::before {
+    display:inline; content:'\f105';
+}
