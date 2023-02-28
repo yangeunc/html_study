@@ -151,3 +151,8 @@
 -자식높이재인식(overflow:hidden;)<br>
 -가상자식생성({clear:both; display:block; content:'';}</p>
 <p>clear:both;라는건 앞의 이전형제의 값을 지우고 다시 시작한다는 뜻,float는 모든형제한테 다 </p>
+<h2>23.02.28</h2>
+<p>*는 모든자식선택자이다</p>
+<p>margin:0 uto;는 좌우에 남은 여백을 자동으로 처리 어느화면크기로 봐도 가운데에 있다</p>
+<p>text-align:center;은 가운데정렬</p>
+<p>line-height:100px;은 수직가운데 정렬 (1줄일 경우만 가능하다)</p>
