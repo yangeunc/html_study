@@ -1,0 +1,45 @@
+main {
+    background-color:beige;
+}
+main .top {
+    width:850px; height:100px;
+    background-color: bisque;
+    margin:0 auto;
+    padding-top:40px;
+}
+main .top h1 {
+    float:left; font-size:1.250rem;
+}
+main .top dl {}
+main .top dt {}
+main .top dd {
+    float:right; font-size:0.875rem; 
+}
+main .top em {}
+section {
+    width:850px; height:100px; margin:0 auto;
+}
+section h2 {
+    float:left; padding:100px 20; font-size:1.063rem; width:850px;
+    display:block; background-color: aqua;
+}
+section p {}
+section h2+p,em{
+    clear:both;
+    float:left;
+    font-size:1.875rem;
+}
+section .first {
+    font-size:1rem;
+    float:left;
+}
+section .second {
+    font-size:1rem;
+    float:left;
+}
+section .last {
+    font-size:1rem;
+    clear:both;
+    float:left; display:inline-block;
+}
+section em {}
