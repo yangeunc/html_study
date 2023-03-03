@@ -156,3 +156,8 @@
 <p>margin:0 uto;는 좌우에 남은 여백을 자동으로 처리 어느화면크기로 봐도 가운데에 있다</p>
 <p>text-align:center;은 가운데정렬</p>
 <p>line-height:100px;은 수직가운데 정렬 (1줄일 경우만 가능하다)</p>
+<h2>23.03.03</h2>
+<p>position-태그의 순서와 상관없이 새롭게 누군가의 위치로 배치할 때 사용한다</p>
+<p>position:relative;는 자기자신의위치를 기준으로 움직이고, absolute의 기준으로 부모 위치를 잡을 때도 사용한다</p>
+<p>position:absolute;는 부모 위치를 기준으로 상대적으로 위치를 움직인다-부모 기준은 가장 가까운 부모  기준 position값을 인식한다</p>
+<p>position:fixed;는 body를 기준으로 위치가 정해진다</p>
