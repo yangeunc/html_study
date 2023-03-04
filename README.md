@@ -161,3 +161,8 @@
 <p>position:relative;는 자기자신의위치를 기준으로 움직이고, absolute의 기준으로 부모 위치를 잡을 때도 사용한다</p>
 <p>position:absolute;는 부모 위치를 기준으로 상대적으로 위치를 움직인다-부모 기준은 가장 가까운 부모  기준 position값을 인식한다</p>
 <p>position:fixed;는 body를 기준으로 위치가 정해진다</p>
+<h2>23.03.04</h2>
+<p>말 줄임 표시하기</p>
+<p>white- space:nowrap; ->한줄처리</p>
+<p>overflow:hidden; -> 정해진 크기 안에서만 보이기</p>
+<p>text-overflow:ellipsis; -> 외부처리를 말줄임…</p>
