@@ -166,3 +166,22 @@
 <p>white- space:nowrap; ->한줄처리</p>
 <p>overflow:hidden; -> 정해진 크기 안에서만 보이기</p>
 <p>text-overflow:ellipsis; -> 외부처리를 말줄임…</p>
+<h2>23.03.05</h2>
+<p>놓친부분 복습하기</p>
+
+<p>p:nth-child(1) 자식중에1번째</p>
+<p>p:first-child 첫번째 자식</p>
+<p>p:last-child 마지막 자식</p>
+<p>p:last-of-child(5) 뒤에서부터 5번째 자식</p>
+
+<p>p:nth-of-type(2) 같은 태그에서 두번째</p>
+<p>p:nth-last-type(2) 뒤에서 2번째 요소</p>
+
+<p>p:nth-child(even) 짝수번째 대상</p>
+<p>p:nth-child(odd) 홀수번째 대상</p>
+
+<p>p:nth-child(3n) 3의 배수</p>
+<p>p:nth-child(2n) 2의 배수</p>
+
+<p>p:nth-child(2n+1) 1부터 시작해서 2칸 건너서 3</p>
+<p>p:nth-child(3n+1) 1부터 시작해서 3칸 건너서 4</p>
