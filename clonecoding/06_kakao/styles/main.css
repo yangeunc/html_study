@@ -1,0 +1,18 @@
+header {}
+header h1 {}
+header nav {}
+header nav a {}
+header .lnb {}
+/* ---------------------------------------- */
+main {}
+/* ---------------------------------------- */
+footer {}
+footer .f_container {}
+footer .f_container .f_top {}
+footer .f_container .f_top .f_t_left {}
+footer .f_container .f_top .f_t_left a {}
+footer .f_container .f_top .f_t_.site {}
+/* ---------------------------------------- */
+footer .f_container .f_t_btm {}
+footer .f_container .f_t_btm address {}
+footer .f_container .f_t_btm p {}
