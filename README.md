@@ -200,3 +200,5 @@
 <p>transform:translate:는 대칭으로 움직일 수 있게 해준다 <br> position으로 대상을 가운데로 보낼때 사용하고 <br>position:absolute; left:50%; top:50%;
 transform:translate(-50%, -50%); 정해진 값이다.</p>
 <p>왼쪽 상단이 기준이니까 반을 이동한다고 생각하면 된다.</p>
+<p>position주면 부유하는 성격때문에 a가 제대로 인식이 안되니까 z-index의 값을 최대로 줘서 header는 항상 위에 있게끔 해준다 <br><em>
+fixed absolute sticky 사용할 때 z-index</em></p>
