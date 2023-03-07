@@ -194,3 +194,8 @@
 <p>메인축이 수평이라면 교차축은 수직이고 메인축이 수직이면 교차축은 수평이라고 생각하면된다.</p>
 <p>항상 display:flex; 가장 먼저 쓰기</p>
 <p>메인축 -> justify <br> 교차축 -> align <br> 교차축이 2줄이면 content 한줄이면 items</p>
+<h2>23.03.07</h2>
+<p>배운것들 복습하기</p>
+<p>hover는 마우스를 올려놓았을때 변하는 값을 설정할 수 있다.<br> ex) header a lnb:hover:color:red;</p>
+<p>transform:translate:는 대칭으로 움직일 수 있게 해준다 <br> position으로 대상을 가운데로 보낼때 사용하고 <br>position:absolute; left:50%; top:50%;
+transform:translate(-50%, -50%); 정해진 값이다.</p>
