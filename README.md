@@ -199,3 +199,4 @@
 <p>hover는 마우스를 올려놓았을때 변하는 값을 설정할 수 있다.<br> ex) header a lnb:hover:color:red;</p>
 <p>transform:translate:는 대칭으로 움직일 수 있게 해준다 <br> position으로 대상을 가운데로 보낼때 사용하고 <br>position:absolute; left:50%; top:50%;
 transform:translate(-50%, -50%); 정해진 값이다.</p>
+<p>왼쪽 상단이 기준이니까 반을 이동한다고 생각하면 된다.</p>
