@@ -1,0 +1,132 @@
+/* --------------------header -------------------------------*/
+header {
+    width:1152px;
+    margin:0 auto;
+}
+header .top {
+    background-color: pink; height:49px;
+    display:flex; flex-flow:row nowrap;
+    justify-content: space-between;
+}
+header .top .h_left {
+    display:flex; flex-flow:row nowrap;
+    align-items: center;
+}
+header .top .h_left h1 {}
+header .top .h_left h1 a {}
+header .top .h_left h1 a img {padding-bottom:8px; margin-right:10px;}
+header .top .h_left nav {}
+header .top .h_left nav a {margin-right:10px;}
+header .top .h_left nav a:last-child {margin:0;}
+header .top .h_right{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:flex-end;
+    align-items:center;
+    
+}
+header .top .h_right a {
+    margin-right:10px;
+}
+header .top .h_right a:last-child {
+    margin:0;
+}
+/* ---------------------header_btm---------------------------- */
+header .h_btm {
+    background-color: burlywood; height:119px;
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+header .h_btm h1 {}
+header .h_btm h1 a {}
+header .h_btm h1 a img {}
+/*  */
+header .h_btm #searchFrm {
+    background-color: #fff;
+    border:3px solid #1e6cb3; width:300px; padding:5px 0;
+}
+header .h_btm #searchFrm fieldset {}
+header .h_btm #searchFrm fieldset input[name$=user_search] {
+    width:90%; padding:3px; border:0; outline:none;
+}
+header .h_btm #searchFrm fieldset input[name$=user_search]::placeholder {color:#1e6cb3;}
+header .h_btm #searchFrm fieldset #search {
+    position:relative; top:3px;
+}
+header .h_btm #searchFrm fieldset #search img {}
+/*  */
+header .h_btm .right {
+    display:flex; flex-flow:column nowrap;
+    align-items:flex-end;
+}
+header .h_btm .right .r_top {}
+header .h_btm .right .r_top #lang {
+    border:1px solid #1e6cb3;
+}
+header .h_btm .right .r_top #lang option {}
+header .h_btm .right .r_top #go {background:#1e6cb3; color:#fff; width:36px; height:24px;}
+header .h_btm .right .r_btm {}
+header .h_btm .right .r_btm p {line-height: 1.3;}
+header .h_btm .right .r_btm p:first-child {font-size:2rem;}
+/* main */
+main {}
+main .bnr_wrap {
+    display:flex; background-color: bisque;
+    flex-flow:row nowrap; 
+    margin:0 auto; width:1152px;
+    justify-content: space-between;
+}
+main .bnr_wrap .left {position:relative;}
+main .bnr_wrap .left .bnr {}
+main .bnr_wrap .left .bnr img {}
+main .bnr_wrap .left .close {
+    display:inline-block; 
+    background:#1e6cb3; 
+    color:#fff; padding:10px;
+    position:absolute; right:20px; bottom:20px;
+}
+main .bnr_wrap .left a {}
+main .bnr_wrap .right {width:360px;}
+main .bnr_wrap .right .corona {
+    position:relative; display:inline-block;
+    margin-bottom: 11px;
+}
+main .bnr_wrap .right .corona img {}
+main .bnr_wrap .right .corona span {
+    position:absolute; background-color: yellow;
+    display:inline-block;
+}
+main .bnr_wrap .right .corona .date {
+    width:140px; height:21px;  right:30px; top:13px;
+}
+main .bnr_wrap .right .corona .result {text-align:center; height:21px;}
+main .bnr_wrap .right .corona .result1 {
+    width:140px; 
+    left:30px; top:79px;
+}
+main .bnr_wrap .right .corona .result2 {
+    width:140px;
+    right:30px; top:79px;
+}
+main .bnr_wrap .right .corona .result3 {
+    width:96px;
+    left:29px; bottom:52px;
+}
+main .bnr_wrap .right .corona .result4 {
+    width:96px;
+    right:119px; bottom:52px;
+}
+main .bnr_wrap .right .corona .result5 {
+    width:62px; 
+    right:30px; bottom:52px;
+}
+main .bnr_wrap .right .bnr {}
+main .bnr_wrap .right .bnr a {}
+main .bnr_wrap .right .bnr img {}
+/* service */
+main .service {}
+main .service .service_wrap {}
+main .service .service_wrap .title {}
+main .service .service_wrap .title h1 {}
+
