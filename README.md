@@ -202,3 +202,5 @@ transform:translate(-50%, -50%); 정해진 값이다.</p>
 <p>왼쪽 상단이 기준이니까 반을 이동한다고 생각하면 된다.</p>
 <p>position주면 부유하는 성격때문에 a가 제대로 인식이 안되니까 z-index의 값을 최대로 줘서 header는 항상 위에 있게끔 해준다 <br><em>
 fixed absolute sticky 사용할 때 z-index</em></p>
+<h2>23.03.08</h2>
+<p></p>
