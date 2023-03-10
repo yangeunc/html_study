@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="./styles/reset.css" type="text/css">
+    <style>
+        .all {
+            padding:30px;
+            background:url(./images/bg2.png);
+            display:flex;
+            flex-flow:row wrap; justify-content:flex-start;
+        }
+        .box {
+            background:linear-gradient(rgba(0,0,0,0.5), transparent);
+            font-size:2rem; text-align:center;
+            width:500px; height:1000px;
+            /* background:linear-gradient(#ff0,#0f0); */
+            /* linear-gradient (x,y, color, color2) */
+            /* background:linear-gradient(to left bottom,#f0f,#f9f); */
+            /* background:linear-gradient(45deg,#f0f,#f9f); */
+            /* background:radial-gradient(circle,#ff0,#0f0) */
+            /* 0-----------100% */
+            /* background:linear-gradient(to right,#f0f 20%,#f9f 30%,#ff0 90%); */
+        }
+        .box1 {
+            width:500px; height:1000px;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 28%, rgba(148,187,233,1) 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="box">A</div>
+        <div class="box1">B</div>
+    </div>
+</body>
+</html>

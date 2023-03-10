@@ -1,0 +1,13 @@
+header {
+    background:url(../images/bg1.png);
+}
+header .head {width:1220px;}
+header .head .logo {}
+header .head .logo img {width:100px; height:100px;}
+header .head .title {}
+header .head .title h1 {}
+header .head .title span {}
+header .head .title a {}
+header .head .title a .middle {}
+header .head a {}
+header .head a .right {}
