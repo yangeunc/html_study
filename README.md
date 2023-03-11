@@ -213,3 +213,13 @@ img태그로 삽입하는 이미지는 스스로 크기를 인식하고 px로 �
 css background-image 삽입이미지는 해당 크기만큼 화면에 표시되지 않고 배경이 처리된 요소의 크기만큼만 일부 보이게 된다.
 
 의미있는 스프라이트 이미지 처리 시 의미글자는 이미지가 들어간 요소안에 작성하고 text-indent로 숨긴다.</p>
+
+<h2>놓친 부분 복습</h2>
+<p>배경이미지-background-image:url()</p>
+<p>두개이상 연결하려면 뒤에 ,url()</p>
+<p>배경색상보다 배경이미지가 우선순위이다</p>
+<p>이미지 반복-background-repeat:no-repeat;</p>
+<p>이미지 고정-background-attachment:fixed; or scroll;</p>
+<p>이미지 크기-background-size:contain;(이미지를 가리지 않는 선에서 크게 성정<br>100%; 가로너비100% 설정<br>cover; 가로세로비를 비교하여 빈공간이 생기지 않도록 크게 설정<br>1400px; 강제크기 입력</p>
+<p>배경 통합 속성</p>
+<p>background:color image repeat attachment position순으로 작성 원하는 값만 골라서 작성할 수 있다</p>
