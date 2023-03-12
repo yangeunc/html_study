@@ -223,3 +223,5 @@ css background-image 삽입이미지는 해당 크기만큼 화면에 표시되�
 <p>이미지 크기-background-size:contain;(이미지를 가리지 않는 선에서 크게 성정<br>100%; 가로너비100% 설정<br>cover; 가로세로비를 비교하여 빈공간이 생기지 않도록 크게 설정<br>1400px; 강제크기 입력</p>
 <p>배경 통합 속성</p>
 <p>background:color image repeat attachment position순으로 작성 원하는 값만 골라서 작성할 수 있다</p>
+<p>마우스 올렸을때 색 변경</p>
+<p>hover{color:# ; }</p>
