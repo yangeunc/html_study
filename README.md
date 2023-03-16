@@ -255,3 +255,7 @@ git pull origin main</p>
 <p>push는 올리는거 pull은 가져오는거</p>
 <p>만약 pull,push 했는데 연결이 안된다면 pull로 가져와서 수정하고 다시 push하거나
 주소 연결이 잘 되어있는지 확인하면된다</p> 
+<h2>강력한 CSS 전처리기 = SASS&SCSS</h2>
+<p>- SCSS는 곧바로 HTML로 적용한 결과를 볼 수 없습니다.
+- SCSS는 컴파일을 통해 CSS로 변환하여 HTML로 연결할 수 있습니다.</p>
+<p>변수는 저장소이고 style1.scss를 style1.css로 변환해서index</p>
