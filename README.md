@@ -259,3 +259,23 @@ git pull origin main</p>
 <p>- SCSS는 곧바로 HTML로 적용한 결과를 볼 수 없습니다.
 - SCSS는 컴파일을 통해 CSS로 변환하여 HTML로 연결할 수 있습니다.</p>
 <p>변수는 저장소이고 style1.scss를 style1.css로 변환해서index</p>
+<p>Git 터미널 작성 방법</p>
+<p>제일 먼저 정보를 등록한다</p>
+<p>git config --local user.name "-"</p>
+<p>git config --local user.email "-"</p>
+<p>git config --list로 등록되었는지 확인하기</p>
+<p>파일이나 폴더 생성</p>
+<p>git init 저장소 만들고</p>
+<p>git add . 파일 스테이지에 올릴준비</p>
+<p>git status 스테이징 확인</p>
+<p>git commit -m '메시지' 커밋하고 </p>
+<p>git log로 내가 수정하고 추가한 내용 맞는지 확인하고</p>
+<p>git push origin main or <br>
+git pull origin main</p>
+<p>push는 올리는거 pull은 가져오는거</p>
+<p>만약 pull,push 했는데 연결이 안된다면 pull로 가져와서 수정하고 다시 push하거나
+주소 연결이 잘 되어있는지 확인하면된다</p> 
+<h2>강력한 CSS 전처리기 = SASS&SCSS</h2>
+<p>- SCSS는 곧바로 HTML로 적용한 결과를 볼 수 없습니다.
+- SCSS는 컴파일을 통해 CSS로 변환하여 HTML로 연결할 수 있습니다.</p>
+<p>변수는 저장소이고 style1.scss를 style1.css로 변환해서index</p>
