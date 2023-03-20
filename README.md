@@ -279,7 +279,7 @@ git pull origin main</p>
 <p>- SCSS는 곧바로 HTML로 적용한 결과를 볼 수 없습니다.
 - SCSS는 컴파일을 통해 CSS로 변환하여 HTML로 연결할 수 있습니다.</p>
 <p>변수는 저장소이고 style1.scss를 style1.css로 변환해서index</p>
-<h2>JAVASCRIPT -script(명령어)<h2>
+<h2>JAVASCRIPT -script(명령어)</h2>
 <ul>
         <li>HTML + CSS = 정적Javascript = 동적</li>
         <li>스크립트를 작성하려면 ?1.목표 설정하기 2.흐름도 만들기 3.각 단계를 코드로 표현하기</li>
