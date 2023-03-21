@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-1</title>
+    <script>
+        // 내부 스크립트
+        //변수의 선언과 대입
+        // var 그릇 //빈 저장소
+        // var 그릇 = 쌀밥 // 데이터 대입
+        // var 그릇 = 콩밥 // 데이터 변경 -쌀밥이 유지되는게 아니라 사라지고 콩밥이 들어오니까 변경이다
+        //객체.속성
+        //객체.메소드()
+        // var box1 = 10 //대입
+        // window.alert(box1)
+
+        var box1 //변수생성
+        var box2 = 1 //생성, 대입
+        console.log(box1) //undefined 정의되지않았다라는 뜻
+        box1 = 10
+        box2 = box1
+        console.log(box1)
+        box1 = 20
+        console.log(box1)
+        console.log(box1, box2) 
+
+        console.log(typeof box1)
+        console.log(typeof box2)
+
+        var box3 = 'A' //문자는 ''로묶어야 한다
+        console.log(typeof box3)
+        console.log(typeof box1+1) //box1+1을 확인하고 그 데이터타입이 무엇인지 보고 console.log에 출력  20+1
+        console.log(typeof box3+1) //문자와 숫자는 더할 수 없으니까 문자인 string(원시데이터)으로 나온다  A+1
+
+        var box4 ='아이디를 입력하세요'
+        console.log(box4.length) //적혀있는 글자수를 알 수 있다(공백포함)
+
+        var a = 1
+        var b = a
+        var c = a + b + c
+        console.log(a,b,c) //c는 undefined NaN (Not a Number) 숫자와 문자는 더할 수 없으니까 NaN 그래서 값이 1,1,NaN
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
