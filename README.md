@@ -323,3 +323,11 @@ ex) 이름 나이 성별 주소 비밀번호 (바뀔 수 있으니까)</p>
 - 초기 데이터 외에 다른 데이터를 대입할 수 없다.<br>
 - 중복된 상수명은 사용할 수 없다.<br>
 ex) 아이디 (바꿀 수 없음)</p>
+<p>console.log(a) 읽는방법은 뒤에서부터 읽기 문자a를 console창에 표시해라<p>
+<p>window.alert(10) 10을 윈도우팝업창에 표시해라</p>
+<p>console.log('안녕하세요'length)안녕하세요문자의 길이를 콘솔에 표시해라</p>
+<p>변수(클래스dom)</p>
+<p>const first = document.getElementsByClassName('first')[0]<br>
+[index]내가 몇번째 class를 가지고올건지 쓰는위치 0,1,2,3순서이다</p>
+<p>console.log(inner.HTML) 안에 내용확인하는 속성</p>
+<p>ex)btn[1].innerHTML = 'cafe'btn글자를 cafe로 바꿔라</p>
