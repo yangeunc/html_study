@@ -331,3 +331,5 @@ ex) 아이디 (바꿀 수 없음)</p>
 [index]내가 몇번째 class를 가지고올건지 쓰는위치 0,1,2,3순서이다</p>
 <p>console.log(inner.HTML) 안에 내용확인하는 속성</p>
 <p>ex)btn[1].innerHTML = 'cafe'btn글자를 cafe로 바꿔라</p>
+<h2># JAVASCRIPT - **DOM querySelector**ES6 DOM 버전 (ElementsByTagName → ES5 버전)</h2>
+<p></p>
