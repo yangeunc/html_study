@@ -336,4 +336,11 @@ ex) 아이디 (바꿀 수 없음)</p>
 - @mixin layout{margin:0 auto; width:1200px;} <br>
 - 선택자에 @include layout을 써준다</p>
 <h2>GRID</h2>
-<p></p>
+<p>
+- 그리드는 반응형웹에 특화된 레이아웃입니다.
+- FireFox 브라우저에서 테스트 시 쉽게 확인할 수 있습니다.(FF 개발자도구(F12) 활용)
+- Flex는 1차원 웹디자인이 가능하며 Grid는 2차원 레이아웃을 사용합니다.</p>
+<p>ex) display:grid <br>
+grid-template-rows:repeat(4,100px); 4개 100px</p>
+<p>grid-template-columns:repeat(4,1fr); - 1fr은 일정한 비율로 맞춰준다</p>
+<p>max-width:calc(100% - 30px); - 양옆 15여백</p>
