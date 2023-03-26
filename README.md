@@ -344,3 +344,21 @@ ex) 아이디 (바꿀 수 없음)</p>
 grid-template-rows:repeat(4,100px); 4개 100px</p>
 <p>grid-template-columns:repeat(4,1fr); - 1fr은 일정한 비율로 맞춰준다</p>
 <p>max-width:calc(100% - 30px); - 양옆 15여백</p>
+<p>total 값 구할 때 변수로 쓰기 </p>
+<p>answer_input.value = `결과는 ${total} 장 입니다`  -> 1번왼쪽에 있는 기호</p>
+<p>value는 input값에 쓰이는거기 때문에 window.prompt에는 쓰이지 않는다(prompt는 숫자를 문자로 바꿔버린다</p>
+<p>innerHTML은 태그사이에 들어가는걸 변경하는거고 value는 태그안에 있는 글자를 변경한다</p>
+<h2>이벤트 핸들러 종류</h2>
+<p>
+- mouseover / mouseenter 마우스가 요소에 올라갔을 때 <br>
+- mouseout / mouseleave 마우스가 요소에 올라간 후 나갔을 때<br>
+- mousemove 마우스가 요소 위에서 움직였을 때<br>
+- mousedown 마우스로 요소를 눌렀을 때(마우스 이벤트 1단계)<br>
+- mouseup 마우스로 요소를 누르고 떼었을 때(마우스 이벤트 2단계)<br>
+- click 클릭했을 때(마우스 이벤트 3단계 mousedown -> mouseup을 연달아 실행가능)<br>
+- onfocus 폼 요소가 활성화되었을 때<br>
+- onload 문서를 읽었을 때</p>
+<p>ex) answer_btn.addEventListener('click',function(){}이벤트 종류, 함수실행 및 호출</p>
+<p>숫자에 콤마가 들어가게 하려면 변수를 새로 만들어주고 toLocalString('ko-kr')을 써준다</p>
+<h2>CSS3 애니메이션</h2>
+<p>transition을 부모에 주면 마우스를 올렸을때와 내렸을때도 다 적용이된다 값을 줄 때에는 새로운 값을 쓰지말고 기존값에서 변경되는 값을쓴다</p>
