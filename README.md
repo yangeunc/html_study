@@ -362,3 +362,14 @@ grid-template-rows:repeat(4,100px); 4개 100px</p>
 <p>숫자에 콤마가 들어가게 하려면 변수를 새로 만들어주고 toLocalString('ko-kr')을 써준다</p>
 <h2>CSS3 애니메이션</h2>
 <p>transition을 부모에 주면 마우스를 올렸을때와 내렸을때도 다 적용이된다 값을 줄 때에는 새로운 값을 쓰지말고 기존값에서 변경되는 값을쓴다</p>
+<p>transition: all은 1s는 모든효과에 적용</p>
+<p>애니메이션의 가속도 linear은 일정한속도, ease는 천천이 시작 중간에 빨라지고 다시 느려지며 끝난다</p>
+<p>애니메이션에 지연시간을 추가하려면 0.5s 1s뒤에 시간이 지연시간 앞은 재생시간이다</p>
+<p>애니메이션 재생방법에는<br>
+   alternate 정방향->역방향->정방향 <br>
+reverse 역방향 <br>
+alternate-reverse 역방향->정방향->역방향 <br>
+forwards 종료위치 정지<br>
+backwards 시작위치 정지<br>
+both 시작/종료 위치 자동설정(자연스럽다)</p>
+<p></p>
