@@ -365,11 +365,22 @@ grid-template-rows:repeat(4,100px); 4개 100px</p>
 <p>transition: all은 1s는 모든효과에 적용</p>
 <p>애니메이션의 가속도 linear은 일정한속도, ease는 천천이 시작 중간에 빨라지고 다시 느려지며 끝난다</p>
 <p>애니메이션에 지연시간을 추가하려면 0.5s 1s뒤에 시간이 지연시간 앞은 재생시간이다</p>
-<p>애니메이션 재생방법에는<br>
-   alternate 정방향->역방향->정방향 <br>
+<h2>애니메이션 재생방법에는</h2>
+  <p>alternate 정방향->역방향->정방향 <br>
 reverse 역방향 <br>
 alternate-reverse 역방향->정방향->역방향 <br>
 forwards 종료위치 정지<br>
 backwards 시작위치 정지<br>
 both 시작/종료 위치 자동설정(자연스럽다)</p>
-<p></p>
+<h2>Transform 속성</h2>
+<p><span>기준점이 중심인데 기준점을 바꾸려면 transform-origin:값 (left,top) 써준다</span></p>
+<p>scale(1) 100%값 크기변경,자식과 자손에도 영향을 줘서 글씨크기가 변경될 수 있으니 변경하지 않으려면 width 쓴다</p>
+<p>rotate(0) (90deg) 회전 음수는 왼쪽으로</p>
+<p>skew(0) (90deg) 기울기 </p>
+<p>translateX,translateY,translate(x,y) 단위px 겹치는게 없을때만 사용</p>
+<h2>position과 transform차이</h2>
+<p>position - relative, absolute, fixed 등 설정 후 left, top, right, bottom 개별 설정</p>
+<p>transform - 선행작업 없이 transfomr:translate() 바로 설정 가능</p>
+<h2>widht,height과 scale차이</h2>
+<p>widht,height은 자식, 자손에 영향을 주지 않는다</p>
+<p>scale 크기조정은 자식, 자손까지 영향을 준다</p>
