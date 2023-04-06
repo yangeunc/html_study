@@ -1,0 +1,5 @@
+.like {}
+.like img {
+    width:20%; transform:translateX(50px); 
+}
+.puppy img {width:20%;}
