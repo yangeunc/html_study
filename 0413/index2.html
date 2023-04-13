@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0413-2</title>
+    <style>
+        * {padding:20px;}
+        #box1 {background:aqua;}
+        #box2 {background: yellow;}
+        #box1 #box2 .p {background: pink;}
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div id="box2">
+            <p class="p">1</p>
+            <p class="p">2</p>
+            <p class="p">3</p>
+        </div>
+    </div>
+    <script>
+        const box1 = document.querySelector('#box1')
+        const box2 = document.querySelector('#box2')
+        const p = document.querySelectorAll('.p')
+
+        //Node 관계(p기준)
+        console.log(p[0].parentNode) //부모 확인
+        console.log(p[0].parentNode.parentNode) //부모의 부모
+        console.log(p[0].parentNode.parentNode.parentNode)
+        console.log(p[0].nextElementSibling) //2 다음형제
+        console.log(p[1].previousElementSibling)// 1 이전형제
+
+        console.log(box2.childNodes) // 공백포함 인식
+        console.log(box2.children) // 요소만 인식 p*3
+        console.log(box2.firstChild) //공백 인식
+        console.log(box2.firstElementChild) //요소 인식
+        console.log(box2.lastChild) //공백 인식
+        console.log(box2.lastElementChild) //요소 인식
+
+        box2.parentNode.firstElementChild //box2
+        box2.children[0].parentNode.parentNode //box1
+        p[2].parentNode.lastElementChild.parentNode //box2
+
+        console.log(p[2].previousElementSibling)
+    </script>
+</body>
+</html>
