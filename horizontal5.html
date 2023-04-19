@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horizontal-5</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+        * {font-family:'Noto Sans KR';}
+        body {}
+        main {}
+        main section {}
+        main .first, main .last {
+            background: #ffffff; width:100%; line-height:100vh;
+            text-align:center;
+            text-transform:capitalize; font-size:7rem;
+        }
+        main .first {}
+        main .wrap {}
+        main .wrap .height {
+            height:500vh;
+        }
+        main .wrap .height .sticky {
+            background:url(./images/bear.bg.jpg) no-repeat;
+            position:sticky; top:0; height:20%;
+            background-size:cover;
+            background-position-y:-150px;
+        }
+        main .wrap .height .sticky .container {}
+        main .wrap .height .sticky .container h1 {
+            font-family:'Satisfy'; font-size:15rem; padding:350px 0; 
+            white-space:nowrap;  line-height:100%; color:#fff;
+        }
+        main .last {}
+    </style>
+</head>
+<body>
+    <main>
+        <section class="first">first page</section>
+        <section class="wrap">
+            <div class="height">
+                <div class="sticky">
+                    <div class="container">
+                        <h1>hi my name is Yang Eun chae i want to go home</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main class="last">last page</main>
+    </main>
+    <script>
+        const wrap = document.querySelector('.wrap')
+        const container = document.querySelector('.wrap .container')
+        console.log(wrap,container)
+
+        window.addEventListener('scroll',()=>{
+            let yoffset = window.scrollY
+            console.log(`yoffset=>${yoffset}`)
+            console.log(`wrap 위치=>${wrap.offsetTop}`)
+            console.log(`wrap 기준 스크롤값=>${yoffset - wrap.offsetTop}`)
+
+            let amount = yoffset - wrap.offsetTop
+
+            if(yoffset >= wrap.offsetTop){
+                container.style.transform = `translateX(-${amount}px)`
+            }else {
+                container.style.transform = `translateX(0px)`
+            }
+        })
+    </script>
+</body>
+</html>

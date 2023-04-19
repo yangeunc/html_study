@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-2</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        body {height:500vh; overflow-x:hidden;}
+        .container {}
+        .container h1 {
+            font-size:10rem; color:#fff; position:relative; z-index: 99; left:30%; padding-top:100px; 
+        }
+        .container video {
+            position:fixed; left:0; top:0; width:100%; z-index: 88;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sunset</h1>
+        <video src="./video/sun.mp4" muted></video>
+    </div>
+</body>
+</html>

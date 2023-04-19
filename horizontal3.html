@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horizontal-3</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        ::-webkit-scrollbar {width:10px; height:10px;}
+        ::-webkit-scrollbar-track {background:rgb(227, 243, 240);}
+        ::-webkit-scrollbar-thumb {
+            background:lightblue; border-style:dotted; color:rgb(169, 230, 248);
+        }
+        html, body {
+            overflow-X:auto;
+            overflow-Y:hidden;
+            width:max-content;
+        }
+        main {}
+        main section {}
+        main section .bg {width:7000px; height:100vh; position:relative;
+            background:
+            url(./images/game_background_4/layers/ground.png),
+            url(./images/game_background_4/layers/rocks.png),
+            url(./images/game_background_4/layers/clouds_2.png),
+            url(./images/game_background_4/layers/clouds_1.png),
+            url(./images/game_background_4/layers/sky.png);
+            background-attachment:scroll, fixed, scroll, scroll, fixed;
+        }
+        main section .bg a {
+            display:block; color:#fff; font-size:10rem; position:absolute; left:50%; bottom:50%; transform:translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="bg">
+                <a href="#">*</a>
+            </div>
+        </section>
+    </main>
+    <script>
+        const bg = document.querySelector('html,body')
+        bg.addEventListener('wheel',(e)=>{
+            bg.scrollLeft += e.deltaY
+        })
+    </script>
+</body>
+</html>

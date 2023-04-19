@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horizontal-2</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        html,body {
+            overflow-X:auto;
+            overflow-Y:hidden;
+            width:max-content;
+        }
+        main {}
+        main section {}
+        main section .bg {
+            width:7000px; height:100vh;
+            background:
+            url(./images/game_background_1/layers/clouds_2.png),
+            url(./images/game_background_1/layers/rocks_2.png),
+            url(./images/game_background_1/layers/rocks_1.png),
+            url(./images/game_background_1/layers/sky.png);
+            background-position:center top, right bottom, left 50%, center;
+            background-attachment:scroll, fixed, scroll, fixed;
+            background-size:50%, 1000px, 2000px, cover;
+            background-repeat:repeat-X, repeat-X, repeat-X, no-repeat;
+        }
+        main section .bg h1 {
+            font-size:10rem; font-weight:600;
+            text-align:center; line-height:100vh;
+            letter-spacing: -0.02em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="bg">
+                <h1>Portfolio 2023</h1>
+            </div>
+        </section>
+    </main>
+    <script>
+        const bs = document.querySelector('html,body')
+        bs.addEventListener('wheel',(e)=>{
+            console.log(e)
+            console.log(e.deltaY)
+            bs.scrollLeft += e.deltaY
+        })
+
+        // document.body.addEventListener('wheel',(e)=>{
+        //     document.body.scrollLeft += e.deltaY
+        // })
+    </script>
+</body>
+</html>
